@@ -15,3 +15,9 @@ the function and run automatically when you commit through a GitHub action.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+I had ai and other github assigmnets to help make the test code, and help with troublshooting the test case of no cycle and test case 3.
+
+The worst cas big theta complexity of my implementation is big theta (n). The overall time complexity is dominated by the number of edges so its big theta (n) where n is the number of edges in the graph. The find and union functions come out to be basically constant because of the compression on the structures. The outer loop iterates over every node in the graph and the inner loop processes them but in constant time making it just the number of edges.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
